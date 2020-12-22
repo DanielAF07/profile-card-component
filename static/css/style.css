@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
 
 body {
-    background: #19A1AD;
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
-    background-position: -600px -550px, 350px 400px;
+    
+    background: url("/images/bg-pattern-top.svg") top -600px left -300px no-repeat fixed, url("/images/bg-pattern-bottom.svg") bottom -600px right -200px no-repeat fixed;
+    background-color: #19A1AD;
     color: hsl(229, 23%, 23%);
     overflow-y: hidden;
 }
