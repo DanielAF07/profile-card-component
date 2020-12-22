@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+
+body {
+    background: #19A1AD;
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: -600px -550px, 350px 400px;
+    color: hsl(229, 23%, 23%);
+    overflow-y: hidden;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Kumbh Sans';
+    /* border: 1px solid red; */
+    width: 375px;
+    /* margin: auto; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    box-shadow: 0px 30px 100px rgba(0,0,0,0.2);
+}
+
+#pattern {
+    object-fit: cover;
+    object-position: 50% 0%;
+    width: 375px;
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+}
+
+.info {
+    margin-top: -5px;
+    background: white;
+    text-align: center;
+    color: hsl(229, 23%, 23%);
+    border-bottom: 1px solid #999;
+    padding-bottom: 15px;
+}
+
+#profile-picture {
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 6px solid white;
+    margin-bottom: 15px;
+}
+
+#name {
+    font-weight: 700;
+}
+
+#age {
+    color: gray;
+    padding: 0 7px;
+}
+
+#location {
+    padding: 0.8em 0;
+    display: block;
+    font-size: 0.7em;
+    color: gray;
+}
+
+.stats {
+    background: white;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 25px;
+    justify-content: space-around;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.stats-item {
+    text-align: center;
+}
+
+.stats-item span {
+    color: hsl(229, 23%, 23%);
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+
+.label{
+    font-size: 10px;
+    color: gray;
+    letter-spacing: 0.2em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
